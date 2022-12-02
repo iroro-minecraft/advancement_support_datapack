@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:pumpkin_pie"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "item.minecraft.pumpkin_pie"
+		}, 
+		"description": {
+			"text":"pumpkin_pie",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/dishes/cookie", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:pumpkin_pie"
+                }
+			}
+		}
+	}
+}

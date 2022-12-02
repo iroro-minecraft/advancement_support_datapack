@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:rabbit_stew"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "item.minecraft.rabbit_stew"
+		}, 
+		"description": {
+			"text":"rabbit_stew",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/dishes/beetrootsoup", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:rabbit_stew"
+                }
+			}
+		}
+	}
+}

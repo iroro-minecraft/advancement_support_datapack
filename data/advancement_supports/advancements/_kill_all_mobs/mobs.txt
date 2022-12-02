@@ -1,0 +1,25 @@
+over
+-everywhere
+	zom, creep, ske, spider, witch, phantom, z-vlger
+-some
+	drown, hask, cave spider, stray, evoker, pillager, ravager, vex, vindicator, gurdian, elder, slime, fish
+
+
+nether
+-particular biome
+	ghast, piglin, zompig, hoglin, zoglin, cube
+-particular structure
+	blaze, with-ske, piglin-brute
+
+
+others
+-boss
+	dragon, wither
+-RARE
+	mite, shulker
+-everywhere
+	enderman
+
+not_kill_all_mobs
+-boss
+	warden

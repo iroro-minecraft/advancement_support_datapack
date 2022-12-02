@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:apple"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "item.minecraft.apple"
+		}, 
+		"description": {
+			"text":"apple",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/crops/melonslice", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:apple"
+                }
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wet_sponge"
+		},
+		"title": {
+			"translate": "entity.minecraft.elder_guardian"
+		},
+		"description": {
+			"text":"elder_guardian",
+			"color": "dark_gray"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/overworld/guardian",
+	"criteria": {
+		"kill_elder_guardian": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:elder_guardian"
+				}
+			}
+		}
+	}
+}

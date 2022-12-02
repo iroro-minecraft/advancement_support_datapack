@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_carrot"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "item.minecraft.golden_carrot"
+		}, 
+		"description": {
+			"text":"golden_carrot",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/_others", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:golden_carrot"
+                }
+			}
+		}
+	}
+}

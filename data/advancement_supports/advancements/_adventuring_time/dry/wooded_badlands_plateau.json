@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_sand"
+		},
+		"frame": "challenge"
+		,
+		"title": {
+			"translate": "biome.minecraft.wooded_badlands_plateau"
+		}, 
+		"description": {
+			"text":"wooded_badlands_plateau",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/dry/badlands_plateau", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:wooded_badlands_plateau"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/wooded_badlands_plateau"
+	}
+}

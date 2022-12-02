@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_mutton"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "item.minecraft.cooked_mutton"
+		}, 
+		"description": {
+			"text":"cooked_mutton",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/meats/_cooked", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:cooked_mutton"
+                }
+			}
+		}
+	}
+}

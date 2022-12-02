@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bedrock"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"text": "Jellie"
+		}, 
+		"description": {
+			"text":"CatType:9", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_complete_catalogue/8_white", 
+	"criteria": {
+		"Jellie": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat", 
+					"nbt": "{CatType:9}"
+				}
+			}
+		}
+	}
+}

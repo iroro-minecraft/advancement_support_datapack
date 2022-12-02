@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanted_golden_apple"
+		},
+		"frame": "challenge"
+		,
+		"title": {
+			"translate": "item.minecraft.enchanted_golden_apple"
+		}, 
+		"description": {
+			"text":"enchanted_golden_apple",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/others/goldenapple", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:enchanted_golden_apple"
+                }
+			}
+		}
+	}
+}

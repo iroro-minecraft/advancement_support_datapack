@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spawner"
+		},
+		"title": {
+			"translate": "entity.minecraft.cave_spider"
+		},
+		"description": {
+			"text":"cave_spider",
+			"color": "dark_gray"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/overworld/drowned",
+	"criteria": {
+		"kill_cave_spider": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cave_spider"
+				}
+			}
+		}
+	}
+}

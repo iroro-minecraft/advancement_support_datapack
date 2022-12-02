@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:rotten_flesh"
+		},
+		"title": {
+			"translate": "entity.minecraft.zoglin"
+		},
+		"description": {
+			"text":"zoglin",
+			"color": "dark_gray"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/nether/hoglin",
+	"criteria": {
+		"kill_zoglin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:zoglin"
+				}
+			}
+		}
+	}
+}

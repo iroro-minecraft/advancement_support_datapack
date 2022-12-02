@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "entity.minecraft.strider"
+		}, 
+		"description": {
+			"text":"strider", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals/sheep", 
+	"criteria": {
+		"breed_strider": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:strider"
+				}
+			}
+		}
+	}
+}

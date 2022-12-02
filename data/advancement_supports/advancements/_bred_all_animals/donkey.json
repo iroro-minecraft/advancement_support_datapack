@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_carrot"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "entity.minecraft.donkey"
+		}, 
+		"description": {
+			"text":"donkey", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals/cow", 
+	"criteria": {
+		"breed_donkey": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:donkey"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bricks"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"text": "Calico"
+		}, 
+		"description": {
+			"text":"CatType:5", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_complete_catalogue/4_british_shorthair", 
+	"criteria": {
+		"Calico": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat", 
+					"nbt": "{CatType:5}"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spruce_log"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"text": "Tabby"
+		}, 
+		"description": {
+			"text":"CatType:0", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_complete_catalogue", 
+	"criteria": {
+		"Tabby": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat", 
+					"nbt": "{CatType:0}"
+				}
+			}
+		}
+	}
+}

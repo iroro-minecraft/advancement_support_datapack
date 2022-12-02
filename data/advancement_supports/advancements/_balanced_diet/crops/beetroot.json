@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:beetroot"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "item.minecraft.beetroot"
+		}, 
+		"description": {
+			"text":"beetroot",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/crops/poisonouspotato", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:beetroot"
+                }
+			}
+		}
+	}
+}

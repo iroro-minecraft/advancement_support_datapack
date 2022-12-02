@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crimson_nylium"
+		},
+		"frame": "goal",
+		"title": {
+			"text": "Others"
+		},
+		"description": {
+			"text":"6 Mobs"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/nether/magmacube",
+	"criteria": {
+		"enterblock": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

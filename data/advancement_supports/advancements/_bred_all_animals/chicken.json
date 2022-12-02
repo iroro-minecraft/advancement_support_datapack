@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wheat_seeds"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "entity.minecraft.chicken"
+		}, 
+		"description": {
+			"text":"chicken", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals/cat", 
+	"criteria": {
+		"breed_chicken": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:chicken"
+				}
+			}
+		}
+	}
+}

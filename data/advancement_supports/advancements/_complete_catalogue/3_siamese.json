@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:soul_soil"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"text": "Siamese"
+		}, 
+		"description": {
+			"text":"CatType:3", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_complete_catalogue/2_red", 
+	"criteria": {
+		"Siamese": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat", 
+					"nbt": "{CatType:3}"
+				}
+			}
+		}
+	}
+}

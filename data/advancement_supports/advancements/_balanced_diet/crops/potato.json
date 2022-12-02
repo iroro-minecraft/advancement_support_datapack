@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:potato"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "item.minecraft.potato"
+		}, 
+		"description": {
+			"text":"potato",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/crops/carrot", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:potato"
+                }
+			}
+		}
+	}
+}

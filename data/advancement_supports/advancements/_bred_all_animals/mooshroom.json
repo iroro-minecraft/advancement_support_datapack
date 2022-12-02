@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wheat"
+		},
+		"frame": "challenge"
+		,
+		"title": {
+			"translate": "entity.minecraft.mooshroom"
+		}, 
+		"description": {
+			"text":"mooshroom", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals/llama", 
+	"criteria": {
+		"breed_mooshroom": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:mooshroom"
+				}
+			}
+		}
+	}
+}

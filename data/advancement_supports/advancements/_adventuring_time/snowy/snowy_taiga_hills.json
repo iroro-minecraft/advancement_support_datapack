@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spruce_log"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "biome.minecraft.snowy_taiga_hills"
+		}, 
+		"description": {
+			"text":"snowy_taiga_hills",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/snowy/snowy_taiga", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:snowy_taiga_hills"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/snowy_taiga_hills"
+	}
+}

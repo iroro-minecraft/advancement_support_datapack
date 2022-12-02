@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_nylium"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "biome.minecraft.warped_forest"
+		}, 
+		"description": {
+			"text":"warped_forest",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/nether/crimsonforest", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:warped_forest"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/warped_forest"
+	}
+}

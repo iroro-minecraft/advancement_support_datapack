@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:podzol"
+		},
+		"frame": "challenge"
+		,
+		"title": {
+			"translate": "biome.minecraft.giant_tree_taiga_hills"
+		}, 
+		"description": {
+			"text":"giant_tree_taiga_hills",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/cold/giant_tree_taiga", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:giant_tree_taiga_hills"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/giant_tree_taiga_hills"
+	}
+}

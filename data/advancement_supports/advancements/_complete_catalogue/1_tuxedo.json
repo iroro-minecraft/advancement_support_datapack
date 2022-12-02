@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:birch_wood"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"text": "Tuxedo"
+		}, 
+		"description": {
+			"text":"CatType:1", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_complete_catalogue/0_tabby", 
+	"criteria": {
+		"Tuxedo": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat", 
+					"nbt": "{CatType:1}"
+				}
+			}
+		}
+	}
+}

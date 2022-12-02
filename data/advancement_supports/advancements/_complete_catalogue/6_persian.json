@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sand"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"text": "Persian"
+		}, 
+		"description": {
+			"text":"CatType:6", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_complete_catalogue/5_calico", 
+	"criteria": {
+		"Persian": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat", 
+					"nbt": "{CatType:6}"
+				}
+			}
+		}
+	}
+}

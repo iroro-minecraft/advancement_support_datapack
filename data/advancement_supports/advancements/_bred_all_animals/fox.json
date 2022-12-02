@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sweet_berries"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "entity.minecraft.fox"
+		}, 
+		"description": {
+			"text":"fox", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals", 
+	"criteria": {
+		"breed_fox": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:fox"
+				}
+			}
+		}
+	}
+}

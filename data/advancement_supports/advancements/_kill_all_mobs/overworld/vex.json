@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_sword"
+		},
+		"title": {
+			"translate": "entity.minecraft.vex"
+		},
+		"description": {
+			"text":"vex",
+			"color": "dark_gray"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/overworld/evoker",
+	"criteria": {
+		"kill_vex": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:vex"
+				}
+			}
+		}
+	}
+}

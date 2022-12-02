@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ice"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "biome.minecraft.frozen_river"
+		}, 
+		"description": {
+			"text":"frozen_river",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/snowy/snowy_beach", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:frozen_river"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/frozen_river"
+	}
+}

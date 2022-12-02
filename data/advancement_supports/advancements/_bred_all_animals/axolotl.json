@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tropical_fish_bucket"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "entity.minecraft.axolotl"
+		}, 
+		"description": {
+			"text":"axolotl", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals/wolf", 
+	"criteria": {
+		"breed_wolf": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:axolotl"
+				}
+			}
+		}
+	}
+}

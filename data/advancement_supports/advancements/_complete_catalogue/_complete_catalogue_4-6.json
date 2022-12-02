@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cod"
+		},
+		"title": {
+			"translate": "No.5 - No.7"
+		},
+		"description": {
+			"text":"3 Cats"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	}, 
+	"parent": "advancement_supports:_complete_catalogue/6_persian", 
+	"criteria": {
+		"enterblock": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

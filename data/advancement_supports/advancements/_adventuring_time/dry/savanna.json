@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:acacia_log"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "biome.minecraft.savanna"
+		}, 
+		"description": {
+			"text":"savanna",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/dry/desert_hills", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:savanna"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/savanna"
+	}
+}

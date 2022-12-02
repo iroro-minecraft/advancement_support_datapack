@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:jungle_log"
+		},
+		"frame": "challenge"
+		,
+		"title": {
+			"translate": "biome.minecraft.jungle_hills"
+		}, 
+		"description": {
+			"text":"jungle_hills",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/temperate/jungle", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:jungle_hills"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/jungle_hills"
+	}
+}

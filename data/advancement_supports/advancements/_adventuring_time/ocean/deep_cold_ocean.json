@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:kelp"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "biome.minecraft.deep_cold_ocean"
+		}, 
+		"description": {
+			"text":"deep_cold_ocean",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/ocean/cold_ocean", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:deep_cold_ocean"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/deep_cold_ocean"
+	}
+}

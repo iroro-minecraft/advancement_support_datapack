@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wheat"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "entity.minecraft.sheep"
+		}, 
+		"description": {
+			"text":"sheep", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals", 
+	"criteria": {
+		"breed_sheep": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:sheep"
+				}
+			}
+		}
+	}
+}

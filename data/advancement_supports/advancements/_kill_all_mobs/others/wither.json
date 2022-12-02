@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:nether_star"
+		},
+		"frame": "challenge",
+		"title": {
+			"translate": "entity.minecraft.wither"
+		},
+		"description": {
+			"text":"wither",
+			"color": "dark_gray"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/others/enderdragon",
+	"criteria": {
+		"kill_wither": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither"
+				}
+			}
+		}
+	}
+}

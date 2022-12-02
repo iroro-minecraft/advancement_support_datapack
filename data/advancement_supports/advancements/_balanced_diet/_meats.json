@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:beef"
+		},
+		"frame": "goal"
+		,
+		"title": {
+			"text": "Meats"
+		}, 
+		"description": {
+			"text":"11 Foods"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

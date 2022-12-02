@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cod"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "entity.minecraft.cat"
+		}, 
+		"description": {
+			"text":"cat", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals/bee", 
+	"criteria": {
+		"breed_cat": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:cat"
+				}
+			}
+		}
+	}
+}

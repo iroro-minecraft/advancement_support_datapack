@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carrot"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "item.minecraft.carrot"
+		}, 
+		"description": {
+			"text":"carrot",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/_crops", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:carrot"
+                }
+			}
+		}
+	}
+}

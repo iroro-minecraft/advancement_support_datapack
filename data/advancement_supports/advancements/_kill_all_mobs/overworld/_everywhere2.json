@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:map"
+		},
+		"frame": "goal",
+		"title": {
+			"text": "Everywhere"
+		},
+		"description": {
+			"text":"Easy to find these 7 Mobs (probably)."
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/overworld/zombievillager",
+	"criteria": {
+		"enterblock": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

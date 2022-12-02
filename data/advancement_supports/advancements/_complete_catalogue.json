@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cod"
+		},
+		"title": {
+			"translate": "advancements.husbandry.complete_catalogue.title", 
+			"color": "dark_purple", 
+			"bold": "true"
+		},
+		"description": {
+			"text":"Show which cats you tamed."
+		},
+		"background": "minecraft:textures/block/diorite.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	}, 
+	"criteria": {
+		"enterblock": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

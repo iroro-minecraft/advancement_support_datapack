@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wheat"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "entity.minecraft.goat"
+		}, 
+		"description": {
+			"text":"goat", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals/axolotl", 
+	"criteria": {
+		"breed_wolf": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:goat"
+				}
+			}
+		}
+	}
+}

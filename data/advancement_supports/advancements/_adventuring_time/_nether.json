@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_boots"
+		},
+		"frame": "challenge"
+		,
+		"title": {
+			"translate": "advancements.nether.explore_nether.title"
+		}, 
+		"description": {
+			"text": "5 Biomes in Nether"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

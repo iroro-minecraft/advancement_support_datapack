@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bamboo"
+		},
+		"frame": "challenge"
+		,
+		"title": {
+			"translate": "entity.minecraft.panda"
+		}, 
+		"description": {
+			"text":"panda", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals/ocelot", 
+	"criteria": {
+		"breed_panda": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:panda"
+				}
+			}
+		}
+	}
+}

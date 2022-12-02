@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_carrot"
+		},
+		"frame":"goal",
+		"title": {
+			"translate": "advancements.husbandry.breed_all_animals.title", 
+			"color": "dark_purple", 
+			"bold": "true"
+		},
+		"description": {
+			"text":"Show what animals you bred."
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent":"advancement_supports:_bred_all_animals/donkey",
+	"criteria": {
+		"enterblock": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

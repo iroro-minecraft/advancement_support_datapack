@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_sword"
+		},
+		"title": {
+			"translate": "advancements.adventure.kill_all_mobs.title", 
+			"color": "dark_purple", 
+			"bold": "true"
+		},
+		"description": {
+			"text":"Show what enemies you beated."
+		},
+		"background": "minecraft:textures/block/polished_blackstone_bricks.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"enterblock": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

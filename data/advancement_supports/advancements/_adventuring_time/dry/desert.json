@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sandstone"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "biome.minecraft.desert"
+		}, 
+		"description": {
+			"text":"desert",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/_dry_biome", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:desert"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/desert"
+	}
+}

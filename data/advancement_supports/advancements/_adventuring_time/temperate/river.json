@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_boat"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "biome.minecraft.river"
+		}, 
+		"description": {
+			"text":"river",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/temperate/plains", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:river"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/river"
+	}
+}

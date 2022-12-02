@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tropical_fish"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "item.minecraft.tropical_fish"
+		}, 
+		"description": {
+			"text":"tropical_fish",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/fishes/cookedsalmon", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:tropical_fish"
+                }
+			}
+		}
+	}
+}

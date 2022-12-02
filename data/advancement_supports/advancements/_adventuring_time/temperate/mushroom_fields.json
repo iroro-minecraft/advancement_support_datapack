@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_mushroom_block"
+		},
+		"frame": "challenge"
+		,
+		"title": {
+			"translate": "biome.minecraft.mushroom_fields"
+		}, 
+		"description": {
+			"text":"mushroom_fields",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/temperate/bamboo_jungle_hills", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:mushroom_fields"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/mushroom_fields"
+	}
+}

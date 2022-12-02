@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:fire_charge"
+		},
+		"title": {
+			"translate": "entity.minecraft.ghast"
+		},
+		"description": {
+			"text":"ghast",
+			"color": "dark_gray"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/nether/zoglin",
+	"criteria": {
+		"kill_ghast": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ghast"
+				}
+			}
+		}
+	}
+}

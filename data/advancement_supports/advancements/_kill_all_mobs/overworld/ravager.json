@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:saddle"
+		},
+		"title": {
+			"translate": "entity.minecraft.ravager"
+		},
+		"description": {
+			"text":"ravager",
+			"color": "dark_gray"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/overworld/vex",
+	"criteria": {
+		"kill_ravager": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ravager"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:poppy"
+		},
+		"frame": "goal"
+		,
+		"title": {
+			"text": "Temperate Biome"
+		}, 
+		"description": {
+			"text": "16 Biomes"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/temperate/mushroom_field_shore", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

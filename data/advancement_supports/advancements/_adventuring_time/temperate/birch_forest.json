@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:birch_log"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "biome.minecraft.birch_forest"
+		}, 
+		"description": {
+			"text":"birch_forest",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/temperate/wooded_hills", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:birch_forest"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/birch_forest"
+	}
+}

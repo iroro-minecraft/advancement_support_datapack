@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:poppy"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "entity.minecraft.bee"
+		}, 
+		"description": {
+			"text":"bee", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals", 
+	"criteria": {
+		"breed_bee": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:bee"
+				}
+			}
+		}
+	}
+}

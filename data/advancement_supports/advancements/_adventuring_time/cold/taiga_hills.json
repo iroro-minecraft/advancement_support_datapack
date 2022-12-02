@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spruce_log"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "biome.minecraft.taiga_hills"
+		}, 
+		"description": {
+			"text":"taiga_hills",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/cold/taiga", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:taiga_hills"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/taiga_hills"
+	}
+}

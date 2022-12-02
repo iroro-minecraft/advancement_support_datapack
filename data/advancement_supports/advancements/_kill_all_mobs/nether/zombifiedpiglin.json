@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_sword"
+		},
+		"title": {
+			"translate": "entity.minecraft.zombified_piglin"
+		},
+		"description": {
+			"text":"zombified_piglin",
+			"color": "dark_gray"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/nether/piglin",
+	"criteria": {
+		"kill_zombified_piglin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:zombified_piglin"
+				}
+			}
+		}
+	}
+}

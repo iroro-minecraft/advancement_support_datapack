@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:lantern"
+		},
+		"frame": "goal",
+		"title": {
+			"text": "Particular Place or Event"
+		},
+		"description": {
+			"text":"13 Mobs. In a particular place or event."
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/_kill_all_mobs_overworld",
+	"criteria": {
+		"enterblock": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

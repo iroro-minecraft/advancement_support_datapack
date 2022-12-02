@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:hay_block"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "entity.minecraft.llama"
+		}, 
+		"description": {
+			"text":"llama", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals/horse", 
+	"criteria": {
+		"breed_llama": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:llama"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:suspicious_stew"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "item.minecraft.suspicious_stew"
+		}, 
+		"description": {
+			"text":"suspicious_stew",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/dishes/rabbitstew", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:suspicious_stew"
+                }
+			}
+		}
+	}
+}

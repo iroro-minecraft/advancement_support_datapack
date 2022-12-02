@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:brain_coral"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "biome.minecraft.warm_ocean"
+		}, 
+		"description": {
+			"text":"warm_ocean",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/_ocean_biome", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:warm_ocean"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/warm_ocean"
+	}
+}

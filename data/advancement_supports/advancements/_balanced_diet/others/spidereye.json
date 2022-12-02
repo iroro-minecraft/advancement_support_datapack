@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spider_eye"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "item.minecraft.spider_eye"
+		}, 
+		"description": {
+			"text":"spider_eye",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/others/goldencarrot", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:spider_eye"
+                }
+			}
+		}
+	}
+}

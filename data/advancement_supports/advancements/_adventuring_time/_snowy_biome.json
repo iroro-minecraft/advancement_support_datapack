@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:snowball"
+		},
+		"frame": "goal"
+		,
+		"title": {
+			"text": "Snowy Biome"
+		}, 
+		"description": {
+			"text": "6 Biomes"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

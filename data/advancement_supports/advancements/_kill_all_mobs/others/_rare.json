@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:map"
+		},
+		"frame": "goal",
+		"title": {
+			"text": "Rare"
+		},
+		"description": {
+			"text":"It might hard to find these 2 Mobs."
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/_kill_all_mobs_others",
+	"criteria": {
+		"enterblock": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:mushroom_stem"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"text": "British Shorthair"
+		}, 
+		"description": {
+			"text":"CatType:4", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_complete_catalogue", 
+	"criteria": {
+		"British Shorthair": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat", 
+					"nbt": "{CatType:4}"
+				}
+			}
+		}
+	}
+}

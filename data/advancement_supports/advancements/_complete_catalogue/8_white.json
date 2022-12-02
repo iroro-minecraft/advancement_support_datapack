@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:white_wool"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"text": "White"
+		}, 
+		"description": {
+			"text":"CatType:8", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_complete_catalogue/7_ragdoll", 
+	"criteria": {
+		"White": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat", 
+					"nbt": "{CatType:8}"
+				}
+			}
+		}
+	}
+}

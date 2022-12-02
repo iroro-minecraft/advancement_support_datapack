@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spore_blossom"
+		},
+		"frame": "challenge"
+		,
+		"title": {
+			"translate": "biome.minecraft.lush_caves"
+		}, 
+		"description": {
+			"text":"LushCaves",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_adventuring_time/lush_caves", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome":"minecraft:lush_caves"
+			}
+		}
+	}, 
+	"rewards": {
+		"function": "advancement_supports:foundbiome/lush_caves"
+	}
+}

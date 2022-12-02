@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:orange_wool"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"text": "Red"
+		}, 
+		"description": {
+			"text":"CatType:2", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_complete_catalogue/1_tuxedo", 
+	"criteria": {
+		"Red": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:cat", 
+					"nbt": "{CatType:2}"
+				}
+			}
+		}
+	}
+}

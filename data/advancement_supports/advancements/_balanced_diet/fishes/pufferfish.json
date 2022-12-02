@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:pufferfish"
+		},
+		"frame": "task"
+		,
+		"title": {
+			"translate": "item.minecraft.pufferfish"
+		}, 
+		"description": {
+			"text":"pufferfish",
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_balanced_diet/fishes/tropicalfish", 
+	"criteria": {
+		"plain": {
+			"trigger": "minecraft:consume_item", 
+			"conditions": {
+				"item": {
+                    "item": "minecraft:pufferfish"
+                }
+			}
+		}
+	}
+}

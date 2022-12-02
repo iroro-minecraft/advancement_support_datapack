@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cod"
+		},
+		"frame": "challenge"
+		,
+		"title": {
+			"translate": "entity.minecraft.ocelot"
+		}, 
+		"description": {
+			"text":"ocelot", 
+			"color": "dark_gray"
+		}, 
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_bred_all_animals/mule", 
+	"criteria": {
+		"breed_ocelot": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:ocelot"
+				}
+			}
+		}
+	}
+}

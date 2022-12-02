@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_boots"
+		},
+		"title": {
+			"translate": "advancements.adventure.adventuring_time.title", 
+			"color": "dark_purple", 
+			"bold": "true"
+		},
+		"description": {
+			"text":"Show what biomes you went."
+		},
+		"background": "minecraft:textures/block/cobblestone.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"enterblock": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

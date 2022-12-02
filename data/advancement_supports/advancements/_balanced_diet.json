@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:apple"
+		},
+		"title": {
+			"translate": "advancements.husbandry.balanced_diet.title", 
+			"color": "dark_purple", 
+			"bold": "true"
+		},
+		"description": {
+			"text":"Show what foods you ate."
+		},
+		"background": "minecraft:textures/block/bricks.png",
+		"show_toast": false,	
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"enterblock": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block":"minecraft:air"
+			}
+		}
+	}
+}

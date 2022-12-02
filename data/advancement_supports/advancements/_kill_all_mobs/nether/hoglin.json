@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:porkchop"
+		},
+		"title": {
+			"translate": "entity.minecraft.hoglin"
+		},
+		"description": {
+			"text":"hoglin",
+			"color": "dark_gray"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "advancement_supports:_kill_all_mobs/nether/zombifiedpiglin",
+	"criteria": {
+		"kill_hoglin": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:hoglin"
+				}
+			}
+		}
+	}
+}
