@@ -17,14 +17,22 @@
 	},
 	"parent": "advancement_supports:_complete_catalogue/1_tuxedo", 
 	"criteria": {
-		"Red": {
-			"trigger": "minecraft:tame_animal",
+		"minecraft:red": {
 			"conditions": {
-				"entity": {
-					"type": "minecraft:cat", 
-					"nbt": "{CatType:2}"
+			  "entity": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"type_specific": {
+					  "type": "cat",
+					  "variant": "minecraft:red"
+					}
+				  }
 				}
-			}
+			  ]
+			},
+			"trigger": "minecraft:tame_animal"
 		}
 	}
 }

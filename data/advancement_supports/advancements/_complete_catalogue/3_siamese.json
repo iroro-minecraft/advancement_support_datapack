@@ -17,14 +17,22 @@
 	},
 	"parent": "advancement_supports:_complete_catalogue/2_red", 
 	"criteria": {
-		"Siamese": {
-			"trigger": "minecraft:tame_animal",
+		"minecraft:siamese": {
 			"conditions": {
-				"entity": {
-					"type": "minecraft:cat", 
-					"nbt": "{CatType:3}"
+			  "entity": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"type_specific": {
+					  "type": "cat",
+					  "variant": "minecraft:siamese"
+					}
+				  }
 				}
-			}
-		}
+			  ]
+			},
+			"trigger": "minecraft:tame_animal"
+		  }
 	}
 }

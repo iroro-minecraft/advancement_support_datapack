@@ -17,14 +17,22 @@
 	},
 	"parent": "advancement_supports:_complete_catalogue/4_british_shorthair", 
 	"criteria": {
-		"Calico": {
-			"trigger": "minecraft:tame_animal",
+		"minecraft:calico": {
 			"conditions": {
-				"entity": {
-					"type": "minecraft:cat", 
-					"nbt": "{CatType:5}"
+			  "entity": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"type_specific": {
+					  "type": "cat",
+					  "variant": "minecraft:calico"
+					}
+				  }
 				}
-			}
-		}
+			  ]
+			},
+			"trigger": "minecraft:tame_animal"
+		  }
 	}
 }

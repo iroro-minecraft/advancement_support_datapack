@@ -17,14 +17,22 @@
 	},
 	"parent": "advancement_supports:_complete_catalogue", 
 	"criteria": {
-		"Ragdoll": {
-			"trigger": "minecraft:tame_animal",
+		"minecraft:ragdoll": {
 			"conditions": {
-				"entity": {
-					"type": "minecraft:cat", 
-					"nbt": "{CatType:7}"
+			  "entity": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"type_specific": {
+					  "type": "cat",
+					  "variant": "minecraft:ragdoll"
+					}
+				  }
 				}
-			}
-		}
+			  ]
+			},
+			"trigger": "minecraft:tame_animal"
+		  }
 	}
 }

@@ -6,7 +6,7 @@
 		"frame": "task"
 		,
 		"title": {
-			"text": "Tuxedo"
+			"text": "all_black"
 		}, 
 		"description": {
 			"text":"CatType:1", 
@@ -17,14 +17,22 @@
 	},
 	"parent": "advancement_supports:_complete_catalogue/0_tabby", 
 	"criteria": {
-		"Tuxedo": {
-			"trigger": "minecraft:tame_animal",
+		"minecraft:all_black": {
 			"conditions": {
-				"entity": {
-					"type": "minecraft:cat", 
-					"nbt": "{CatType:1}"
+			  "entity": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"type_specific": {
+					  "type": "cat",
+					  "variant": "minecraft:all_black"
+					}
+				  }
 				}
-			}
-		}
+			  ]
+			},
+			"trigger": "minecraft:tame_animal"
+		  }
 	}
 }
