@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "stripped_birch_log"
+        },
+        "title": {
+            "text": "シラカバの原生林"
+        },
+        "description": {
+            "text": "old_growth_birch_forest"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "minecraft:old_growth_birch_forest"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "parent": "advancement_supports:_adventuring_time/birch_forest"
+}

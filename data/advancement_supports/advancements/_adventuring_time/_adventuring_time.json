@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "diamond_boots",
+            "nbt": "{Damage:0}"
+        },
+        "title": {
+            "text": "冒険の時間α"
+        },
+        "description": {
+            "text": "adventuring_time"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/calcite.png"
+    },
+    "criteria": {
+        "slept_in_bed": {
+            "conditions": {},
+            "trigger": "minecraft:slept_in_bed"
+        }
+    }
+}

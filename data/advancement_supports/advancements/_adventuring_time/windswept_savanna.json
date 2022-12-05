@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "acacia_leaves"
+        },
+        "title": {
+            "text": "吹きさらしのサバンナ"
+        },
+        "description": {
+            "text": "windswept_savanna"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "minecraft:windswept_savanna"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "parent": "advancement_supports:_adventuring_time/savanna_plateau"
+}

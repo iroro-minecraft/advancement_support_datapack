@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "glow_berries"
+        },
+        "title": {
+            "text": "洞窟"
+        },
+        "description": {
+            "text": "cave"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "slept_in_bed": {
+            "conditions": {},
+            "trigger": "minecraft:slept_in_bed"
+        }
+    },
+    "parent": "advancement_supports:_adventuring_time/_adventuring_time"
+}

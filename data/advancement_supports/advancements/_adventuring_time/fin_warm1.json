@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "grass_block"
+        },
+        "title": {
+            "text": "温帯"
+        },
+        "description": {
+            "text": ""
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "slept_in_bed": {
+            "conditions": {},
+            "trigger": "minecraft:slept_in_bed"
+        }
+    },
+    "parent": "advancement_supports:_adventuring_time/mushroom_fields"
+}

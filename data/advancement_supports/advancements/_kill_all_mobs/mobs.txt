@@ -19,7 +19,3 @@ others
 	mite, shulker
 -everywhere
 	enderman
-
-not_kill_all_mobs
--boss
-	warden

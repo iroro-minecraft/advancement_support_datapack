@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "bamboo"
+        },
+        "title": {
+            "text": "竹林"
+        },
+        "description": {
+            "text": "bamboo_jungle"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "minecraft:bamboo_jungle"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "parent": "advancement_supports:_adventuring_time/sparse_jungle"
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "pointed_dripstone"
+        },
+        "title": {
+            "text": "鍾乳洞"
+        },
+        "description": {
+            "text": "dripstone_caves"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "minecraft:dripstone_caves"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "parent": "advancement_supports:_adventuring_time/lush_caves"
+}

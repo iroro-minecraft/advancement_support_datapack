@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "dark_oak_boat"
+        },
+        "title": {
+            "text": "凍った川"
+        },
+        "description": {
+            "text": "frozen_river"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "minecraft:frozen_river"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "parent": "advancement_supports:_adventuring_time/snowy_beach"
+}

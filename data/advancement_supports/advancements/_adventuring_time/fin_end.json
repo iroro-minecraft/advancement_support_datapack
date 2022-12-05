@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "elytra",
+            "nbt": "{Damage:0}"
+        },
+        "title": {
+            "text": "ジ・エンド"
+        },
+        "description": {
+            "text": ""
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "slept_in_bed": {
+            "conditions": {},
+            "trigger": "minecraft:slept_in_bed"
+        }
+    },
+    "parent": "advancement_supports:_adventuring_time/end_highlands"
+}

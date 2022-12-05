@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "brown_terracotta"
+        },
+        "title": {
+            "text": "森のある荒野"
+        },
+        "description": {
+            "text": "wooded_badlands"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "minecraft:wooded_badlands"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "parent": "advancement_supports:_adventuring_time/eroded_badlands"
+}

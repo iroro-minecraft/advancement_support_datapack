@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "dark_oak_boat"
+        },
+        "title": {
+            "text": "海洋"
+        },
+        "description": {
+            "text": "ocean"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "slept_in_bed": {
+            "conditions": {},
+            "trigger": "minecraft:slept_in_bed"
+        }
+    },
+    "parent": "advancement_supports:_adventuring_time/_adventuring_time"
+}
